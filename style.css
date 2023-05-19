@@ -1,0 +1,58 @@
+body{
+    background-image:linear-gradient(to right, #FFDEAD, skyblue);
+}
+
+form{
+    width: 400px;
+    height: 450px;
+    background-image: linear-gradient(to right, skyblue, #FFDEAD);
+    box-shadow: 1px 1px 10px;
+    float: left;
+}
+h1{
+    font-size: 30px;
+    color: brown;
+    text-align: center;
+}
+
+form label{
+    margin-left: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+input, textarea{
+    width: 200px;
+    padding: 10px;
+    color: black;
+    border-radius: 0%;
+}
+input:hover, textarea:hover{
+    border-color: aqua;
+    box-shadow: 1px 1px 10px;
+    font-weight: bold;
+}
+
+textarea{
+    width: 250px;
+    height: 120px;
+    line-height: 20px;
+    resize: none;
+    margin-left: 70px;
+}
+
+.submit{
+    margin-top: 10px;
+    margin-left: 25%;
+}
+.submit:hover{
+    background-color: blueviolet;
+    font-weight: bold;
+    color: white
+}
+
+.maps{
+    width: 600px;
+    height: 600px;
+    margin-left: 30%;
+}
